@@ -1,0 +1,68 @@
+1, MVP specification
+The MVP for the marketplace website focuses on delivering core functionalities that allow users to interact, buy, and sell on the platform. Below are the essential specifications:
+2. Architecture
+
+3. APIs
+
+If there are no APIs used or provided
+
+4. Data Modelling
+
+User
+Attributes:
+user_id (Primary Key)
+name
+email (Unique)
+password_hash
+role (e.g., buyer, seller, admin)
+profile_picture
+created_at
+updated_at
+Product
+Attributes:
+product_id (Primary Key)
+seller_id 
+title
+description
+price
+category_id 
+images (e.g., URLs or paths)
+stock_quantity
+created_at
+updated_at
+
+5. User Stories
+ Buyer User Stories
+Account Creation and Login
+As a buyer, I want to register an account using my email or social login so that I can access the marketplace and make purchases.
+Product Browsing
+As a buyer, I want to browse products by category so that I can find items I’m interested in.
+Product Details
+As a buyer, I want to view detailed information about a product, including images, description, and price, so that I can make informed purchasing decisions.
+    Ratings and Reviews
+As a buyer, I want to leave a review and rating for products I’ve purchased so that I can share my feedback with other users.
+Seller User Stories
+Account Creation and Login
+As a seller, I want to create a seller account so that I can list products and manage my sales.
+Product Listing
+As a seller, I want to create and publish product listings with details such as title, description, price, and images so that buyers can see and purchase my products.
+
+
+
+6. Mockups
+
+ Homepage
+
+Header: Includes navigation links (Home, Categories, About Us, Contact), search bar, and user login/signup buttons.
+Footer: Includes links to privacy policy, terms of service, and social media icons.
+
+
+Product Detail Page
+Features:
+Product Images: Main image with thumbnails of additional images.
+Product Information: Title, price, description, and seller information.
+Add to Cart Button: Prominent button to add the product to the shopping cart.
+Reviews Section: User reviews and ratings for the product.
+Visuals:
+Layout: Detailed view with large images and clear sections for product info and reviews.
+
